@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap");
+
+.section-heading {
+  font-family: "Oleo Script", cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.my-sec {
+  padding: 30px 5px;
+}
+
+.my-sec i {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-img {
+  border-radius: 50%;
+  height: 300px;
+}
+
+.sec-img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background-color: #333;
+  color: #c4c4c4;
+}
